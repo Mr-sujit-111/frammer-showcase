@@ -119,7 +119,13 @@ export default function ScrollAnimations() {
                       <CardContent className="p-6">
                         <div className="w-full h-40 mb-4 overflow-hidden rounded-md">
                           <img
-                            src={`https://images.unsplash.com/photo-${item === 1 ? "1633613286848-e6f43bbafb8d" : item === 2 ? "1580927752452-89d6a6072337" : "1614624532603-9e304bd7a3e1"}?q=80&w=500&auto=format&fit=crop`}
+                            src={`https://images.unsplash.com/photo-${item === 1
+                              ? "1506744038136-46273834b3fb" // A nice mountain photo
+                              : item === 2
+                                ? "1495567720989-cebdbdd97913" // Beautiful nature scene
+                                : "1522199710521-72d69614c702" // A cool city view
+                              }?q=80&w=500&auto=format&fit=crop`}
+
                             alt={`Fade-in Section ${item}`}
                             className="w-full h-full object-cover"
                           />
